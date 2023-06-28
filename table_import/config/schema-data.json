@@ -1,0 +1,31 @@
+{
+  "schemaName": "data",
+  "dimensionFieldSpecs": [
+    {
+      "name": "name",
+      "dataType": "STRING"
+    },
+    {
+      "name": "company",
+      "dataType": "INT"
+    },
+    {
+      "name": "credit_card_number",
+      "dataType": "LONG"
+    },
+    {
+      "name": "credit_card_provider",
+      "dataType": "STRING"
+    },
+    {
+      "name": "credit_card_security_code",
+      "dataType": "STRING"
+    }
+  ],
+  "metricFieldSpecs": [
+    {
+      "name": "balance",
+      "dataType": "FLOAT"
+    }
+  ]
+}

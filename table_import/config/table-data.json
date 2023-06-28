@@ -1,0 +1,22 @@
+{
+  "tableName": "data",
+  "tableType": "OFFLINE",
+  "segmentsConfig": {
+    "replication": 1,
+    "schemaName": "data"
+  },
+  "tenants": {
+	"broker":"DefaultTenant",
+	"server":"DefaultTenant"
+  },
+  "tableIndexConfig": {
+	"loadMode":"MMAP"
+  },
+  "ingestionConfig": {
+	"batchIngestionConfig":{
+		"segmentIngestionType":"APPEND"
+
+	}
+  },
+  "metadata": {}
+}
